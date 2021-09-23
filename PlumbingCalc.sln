@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{9EEADB5C-E193-426C-B409-F214F6223D76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{9EEADB5C-E193-426C-B409-F214F6223D76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics", "Physics\Physics.csproj", "{F3E9C37B-5C57-4896-8CE2-F83BE506A528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physics", "Physics\Physics.csproj", "{F3E9C37B-5C57-4896-8CE2-F83BE506A528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architectural", "Architectural\Architectural.csproj", "{0E5B65BD-53A5-4E6D-9F8F-BBDD3AC2E24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Architectural", "Architectural\Architectural.csproj", "{0E5B65BD-53A5-4E6D-9F8F-BBDD3AC2E24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plumbing", "Plumbing\Plumbing.csproj", "{6E613023-C51D-403E-8A0A-1347901C104A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plumbing", "Plumbing\Plumbing.csproj", "{6E613023-C51D-403E-8A0A-1347901C104A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlumbingCalc", "PlumbingCalc\PlumbingCalc.csproj", "{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumbingCalc", "PlumbingCalc\PlumbingCalc.csproj", "{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architectural.Tests", "Architectural.Tests\Architectural.Tests.csproj", "{CD6B5389-1992-4B95-86D0-2432013D7EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.Tests", "Geometry.Tests\Geometry.Tests.csproj", "{67760DDB-24D5-4818-88E5-0C509ECAD04E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6B5389-1992-4B95-86D0-2432013D7EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6B5389-1992-4B95-86D0-2432013D7EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6B5389-1992-4B95-86D0-2432013D7EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6B5389-1992-4B95-86D0-2432013D7EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67760DDB-24D5-4818-88E5-0C509ECAD04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67760DDB-24D5-4818-88E5-0C509ECAD04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67760DDB-24D5-4818-88E5-0C509ECAD04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67760DDB-24D5-4818-88E5-0C509ECAD04E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
