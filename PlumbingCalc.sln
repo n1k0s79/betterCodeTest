@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{9EEADB5C-E193-426C-B409-F214F6223D76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics", "..\Physics\Physics.csproj", "{F3E9C37B-5C57-4896-8CE2-F83BE506A528}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics", "Physics\Physics.csproj", "{F3E9C37B-5C57-4896-8CE2-F83BE506A528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architectural", "..\Architectural\Architectural.csproj", "{0E5B65BD-53A5-4E6D-9F8F-BBDD3AC2E24A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architectural", "Architectural\Architectural.csproj", "{0E5B65BD-53A5-4E6D-9F8F-BBDD3AC2E24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plumbing", "..\Plumbing\Plumbing.csproj", "{6E613023-C51D-403E-8A0A-1347901C104A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plumbing", "Plumbing\Plumbing.csproj", "{6E613023-C51D-403E-8A0A-1347901C104A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlumbingCalc", "..\PlumbingCalc\PlumbingCalc.csproj", "{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlumbingCalc", "PlumbingCalc\PlumbingCalc.csproj", "{F0EF4E6F-837D-49BE-85CF-C2E5A5B3CB4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
