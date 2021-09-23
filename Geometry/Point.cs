@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Geometry
 {
@@ -10,6 +11,12 @@ namespace Geometry
         {
             X = x;
             Y = y;
+        }
+
+        public double GetDistance(Point other)
+        {
+            Debug.Assert(other != null);
+            return other.X - this.X;
         }
     }
 }
