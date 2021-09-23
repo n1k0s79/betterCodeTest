@@ -8,7 +8,8 @@ namespace Plumbing.Tests
         [TestMethod]
         public void Instantiate()
         {
-            var k = new Pipe();
+            var pipe = new Pipe();
+            Assert.IsNotNull(pipe);
         }
     }
 }

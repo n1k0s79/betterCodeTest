@@ -11,6 +11,7 @@ namespace Geometry.Tests
             var p = new Point(1, 2);
             Assert.AreEqual(1, p.X);
             Assert.AreEqual(2, p.Y);
+            Assert.IsNotNull(p);
         }
 
         [TestMethod]
@@ -19,6 +20,7 @@ namespace Geometry.Tests
             var p1 = new Point(1, 2);
             Point p2 = null;
             var dist = p1.GetDistance(p2);
+            Assert.AreEqual(0, dist);
         }
     }
 }

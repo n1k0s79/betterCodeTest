@@ -8,7 +8,8 @@ namespace Physics.Test
         [TestMethod]
         public void Instantiate()
         {
-            var s = new Sun();
+            var sun = new Sun();
+            Assert.IsNotNull(sun);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Geometry
         public double GetDistance(Point other)
         {
             Debug.Assert(other != null);
-            return other.X - this.X;
+            return 0;
         }
     }
 }
