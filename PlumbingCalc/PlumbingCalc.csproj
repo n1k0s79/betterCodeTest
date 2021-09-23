@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Architectural\Architectural.csproj" />
+    <ProjectReference Include="..\Geometry\Geometry\Geometry.csproj" />
+    <ProjectReference Include="..\Physics\Physics.csproj" />
+    <ProjectReference Include="..\Plumbing\Plumbing.csproj" />
+  </ItemGroup>
+
+</Project>
