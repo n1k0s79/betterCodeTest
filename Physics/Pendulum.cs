@@ -2,9 +2,9 @@
 
 namespace Physics
 {
-    public class Sun
+    public class Gravity
     {
-        public double GetInclinationAngle()
+        public double GetAcceleration()
         {
             var p1 = new Geometry.Point(1, 2);
             var p2 = new Geometry.Point(3, 4);

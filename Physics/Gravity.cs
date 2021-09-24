@@ -2,9 +2,9 @@
 
 namespace Physics
 {
-    public class Sun
+    public class Pendulum
     {
-        public double GetInclinationAngle()
+        public double GetPeriod()
         {
             var p1 = new Geometry.Point(1, 2);
             var p2 = new Geometry.Point(3, 4);
