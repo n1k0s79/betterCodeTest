@@ -4,10 +4,6 @@ namespace Physics
 {
     public class Sun
     {
-        public Sun()
-        {
-        }
-
         public double GetInclinationAngle()
         {
             var p1 = new Geometry.Point(1, 2);

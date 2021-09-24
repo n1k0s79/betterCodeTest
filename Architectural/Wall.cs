@@ -8,8 +8,8 @@ namespace Architectural
 
         public Wall()
         {
-            var sun = new Physics.Sun();
-            radiation = sun.GetInclinationAngle();
+            //var sun = new Physics.Sun();
+            //radiation = sun.GetInclinationAngle();
         }
     }
 }
