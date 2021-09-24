@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Geometry;
 using System.Collections.Generic;
 
 namespace Architectural
@@ -9,6 +9,8 @@ namespace Architectural
 
         private IEnumerable<Window> windows;
         private IEnumerable<Door> doors;
+        private Point fromPoint;
+        private Point toPoint;
 
         public Wall()
         {
