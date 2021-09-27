@@ -12,6 +12,9 @@ namespace Architectural
         private Point fromPoint;
         private Point toPoint;
 
+        /// <summary>
+        /// Implement wall functionality
+        /// </summary>
         public Wall()
         {
             var sun = new Physics.Sun();
